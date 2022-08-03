@@ -11,10 +11,14 @@ class ViewController: UIViewController, UICollectionViewDelegate, UICollectionVi
 
     @IBOutlet weak var collectionView: UICollectionView!
     
+    @IBOutlet weak var pageView: UIPageControl!
     var imgArr = [ UIImage(named:"3"),
                    UIImage(named:"4"),
                    UIImage(named:"10"),
                    UIImage(named:"0")]
+    
+    var timer = Timer()
+    var counter = 0
     
     override func viewDidLoad() {
         print("hdsadj")
@@ -22,6 +26,12 @@ class ViewController: UIViewController, UICollectionViewDelegate, UICollectionVi
         collectionView.delegate = self
         collectionView.dataSource = self
         // Do any additional setup after loading the view.
+        pageView.numberOfPages = imgArr.count
+        pageView.currentPage = 0
+        DispatchQueue.main.async { [self] in
+            self.timer = Timer.scheduledTimer(timeInterval: 2.0, target: self, selector: #selector(self.changeImage), userInfo: nil, repeats: true)
+
+        }
     }
 //    override func didReceiveMemoryWarning() {
 //        super.didReceiveMemoryWarning()
@@ -37,6 +47,21 @@ class ViewController: UIViewController, UICollectionViewDelegate, UICollectionVi
         return cell!
     }
     
+  @objc func changeImage() {
+        
+      if counter < imgArr.count {
+          let index = IndexPath.init(item: counter, section: 0)
+          self.collectionView.scrollToItem(at: index, at: .centeredHorizontally, animated: true)
+          pageView.currentPage = counter
+          counter += 1
+      } else {
+          counter = 0
+          let index = IndexPath.init(item: counter, section: 0)
+          self.collectionView.scrollToItem(at: index, at: .centeredHorizontally, animated: false)
+          pageView.currentPage = counter
+          counter = 1
+      }
+    }
 }
 //extension ViewController: UICollectionViewDelegate, UICollectionViewDataSource {
 //    func collectionView(_ collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
