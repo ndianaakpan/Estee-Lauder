@@ -17,6 +17,7 @@
 		B8277B142894934000CEE009 /* Estee_LauderTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8277B132894934000CEE009 /* Estee_LauderTests.swift */; };
 		B8277B1E2894934000CEE009 /* Estee_LauderUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8277B1D2894934000CEE009 /* Estee_LauderUITests.swift */; };
 		B8277B202894934000CEE009 /* Estee_LauderUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8277B1F2894934000CEE009 /* Estee_LauderUITestsLaunchTests.swift */; };
+		B87AE0A6289AFA88003E3DB1 /* ThirdViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B87AE0A5289AFA87003E3DB1 /* ThirdViewController.swift */; };
 		B8A0A32C28989DEE002B9676 /* DataCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8A0A32B28989DEE002B9676 /* DataCollectionViewCell.swift */; };
 /* End PBXBuildFile section */
 
@@ -52,6 +53,7 @@
 		B8277B192894934000CEE009 /* Estee LauderUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Estee LauderUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B8277B1D2894934000CEE009 /* Estee_LauderUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Estee_LauderUITests.swift; sourceTree = "<group>"; };
 		B8277B1F2894934000CEE009 /* Estee_LauderUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Estee_LauderUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		B87AE0A5289AFA87003E3DB1 /* ThirdViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThirdViewController.swift; sourceTree = "<group>"; };
 		B8A0A32B28989DEE002B9676 /* DataCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataCollectionViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -107,6 +109,7 @@
 				B8277AFB2894933E00CEE009 /* SceneDelegate.swift */,
 				B8277AFD2894933E00CEE009 /* ViewController.swift */,
 				B8277AFF2894933E00CEE009 /* Main.storyboard */,
+				B87AE0A5289AFA87003E3DB1 /* ThirdViewController.swift */,
 				B8277B052894934000CEE009 /* Assets.xcassets */,
 				B8277B072894934000CEE009 /* LaunchScreen.storyboard */,
 				B8A0A32B28989DEE002B9676 /* DataCollectionViewCell.swift */,
@@ -268,6 +271,7 @@
 				B8277AFA2894933E00CEE009 /* AppDelegate.swift in Sources */,
 				B8277AFC2894933E00CEE009 /* SceneDelegate.swift in Sources */,
 				B8277B042894933E00CEE009 /* Estee_Lauder.xcdatamodeld in Sources */,
+				B87AE0A6289AFA88003E3DB1 /* ThirdViewController.swift in Sources */,
 				B8A0A32C28989DEE002B9676 /* DataCollectionViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
