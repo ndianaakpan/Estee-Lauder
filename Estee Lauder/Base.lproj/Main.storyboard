@@ -86,8 +86,8 @@
                                                     </collectionViewCell>
                                                 </cells>
                                             </collectionView>
-                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="5" translatesAutoresizingMaskIntoConstraints="NO" id="vo0-l7-4Vo">
-                                                <rect key="frame" x="0.0" y="776" width="414" height="222"/>
+                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="11" translatesAutoresizingMaskIntoConstraints="NO" id="vo0-l7-4Vo">
+                                                <rect key="frame" x="0.0" y="776" width="414" height="209"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <color key="backgroundColor" red="0.32549019607843138" green="0.14509803921568626" blue="0.050980392156862744" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                             </imageView>
@@ -105,13 +105,17 @@
                                                 </attributedString>
                                                 <nil key="highlightedColor"/>
                                             </label>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" usesAttributedText="YES" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ap1-Dp-Ssz">
-                                                <rect key="frame" x="8" y="1006" width="398" height="91"/>
+                                            <pageControl opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" numberOfPages="3" translatesAutoresizingMaskIntoConstraints="NO" id="85c-zT-Nlg">
+                                                <rect key="frame" x="101" y="635" width="211" height="26"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                            </pageControl>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" usesAttributedText="YES" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Lcf-cP-gFy">
+                                                <rect key="frame" x="7" y="701" width="398" height="53"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <attributedString key="attributedText">
-                                                    <fragment content="Proven effective for all skintones and skintypes. This is the high performance face serum beautiful skin can’t live without.">
+                                                    <fragment content="The #1 serum in the U.S.* Fight the look of multiple signs of aging.">
                                                         <attributes>
-                                                            <color key="NSColor" red="0.15686274509803921" green="0.10588235294117647" blue="0.078431372549019607" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                            <color key="NSColor" red="0.15686274509803921" green="0.10588235294117647" blue="0.078431372549019607" alpha="1" colorSpace="custom" customColorSpace="calibratedRGB"/>
                                                             <font key="NSFont" size="18" name="Optima-Regular"/>
                                                             <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
                                                         </attributes>
@@ -119,13 +123,8 @@
                                                 </attributedString>
                                                 <nil key="highlightedColor"/>
                                             </label>
-                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="11" translatesAutoresizingMaskIntoConstraints="NO" id="zWV-vr-41w">
-                                                <rect key="frame" x="0.0" y="1130" width="414" height="219"/>
-                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                                <color key="backgroundColor" red="0.6705882353" green="0.61568627450000002" blue="0.56470588239999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                            </imageView>
                                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="7nq-z2-cDn">
-                                                <rect key="frame" x="95" y="1383" width="225" height="45"/>
+                                                <rect key="frame" x="95" y="1413" width="225" height="45"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <color key="tintColor" red="0.21960784310000001" green="0.1764705882" blue="0.1529411765" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <state key="normal" title="Button"/>
@@ -146,18 +145,34 @@
                                                     </segue>
                                                 </connections>
                                             </button>
-                                            <pageControl opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" numberOfPages="3" translatesAutoresizingMaskIntoConstraints="NO" id="85c-zT-Nlg">
-                                                <rect key="frame" x="101" y="635" width="211" height="26"/>
-                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                            </pageControl>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" usesAttributedText="YES" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Lcf-cP-gFy">
-                                                <rect key="frame" x="7" y="701" width="398" height="53"/>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" usesAttributedText="YES" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="TqB-94-d1R">
+                                                <rect key="frame" x="9" y="1108" width="395" height="280"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <attributedString key="attributedText">
-                                                    <fragment content="The #1 serum in the U.S.* Fight the look of multiple signs of aging.">
+                                                    <fragment>
+                                                        <string key="content">Experience the next generation of our revolutionary formula—the most comprehensive Advanced Night Repair serum ever. Patented until 2033.
+
+Now with Chronolux™ Power Signal Technology, this deep- and fast-penetrating face serum reduces the look of multiple signs of aging caused by the environmental assaults of modern life. Skin looks smoother and less lined, younger, more radiant and even toned.
+</string>
                                                         <attributes>
                                                             <color key="NSColor" red="0.15686274509803921" green="0.10588235294117647" blue="0.078431372549019607" alpha="1" colorSpace="custom" customColorSpace="calibratedRGB"/>
                                                             <font key="NSFont" size="18" name="Optima-Regular"/>
+                                                            <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                                        </attributes>
+                                                    </fragment>
+                                                </attributedString>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" usesAttributedText="YES" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="RSB-g0-gAo">
+                                                <rect key="frame" x="24" y="1008" width="367" height="92"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <attributedString key="attributedText">
+                                                    <fragment>
+                                                        <string key="content">Fast Visible Repair and Youth-Generating Power.
+</string>
+                                                        <attributes>
+                                                            <color key="NSColor" red="0.15686274509803921" green="0.10588235294117647" blue="0.078431372549019607" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                            <font key="NSFont" size="24" name="Optima-Regular"/>
                                                             <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
                                                         </attributes>
                                                     </fragment>
@@ -211,175 +226,123 @@
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="YYM-U5-CpR">
                                         <rect key="frame" x="0.0" y="0.0" width="414" height="1404"/>
                                         <subviews>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" usesAttributedText="YES" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="RSB-g0-gAo">
-                                                <rect key="frame" x="24" y="18" width="367" height="92"/>
-                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                                <attributedString key="attributedText">
-                                                    <fragment>
-                                                        <string key="content">Fast Visible Repair and Youth-Generating Power.
-</string>
-                                                        <attributes>
-                                                            <color key="NSColor" red="0.15686274509803921" green="0.10588235294117647" blue="0.078431372549019607" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                                            <font key="NSFont" size="24" name="Optima-Regular"/>
-                                                            <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
-                                                        </attributes>
-                                                    </fragment>
-                                                </attributedString>
-                                                <nil key="highlightedColor"/>
-                                            </label>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" usesAttributedText="YES" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="TqB-94-d1R">
-                                                <rect key="frame" x="11" y="285" width="395" height="280"/>
-                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                                <attributedString key="attributedText">
-                                                    <fragment>
-                                                        <string key="content">Experience the next generation of our revolutionary formula—the most comprehensive Advanced Night Repair serum ever. Patented until 2033.
-
-Now with Chronolux™ Power Signal Technology, this deep- and fast-penetrating face serum reduces the look of multiple signs of aging caused by the environmental assaults of modern life. Skin looks smoother and less lined, younger, more radiant and even toned.
-</string>
-                                                        <attributes>
-                                                            <color key="NSColor" red="0.15686274509803921" green="0.10588235294117647" blue="0.078431372549019607" alpha="1" colorSpace="custom" customColorSpace="calibratedRGB"/>
-                                                            <font key="NSFont" size="18" name="Optima-Regular"/>
-                                                            <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
-                                                        </attributes>
-                                                    </fragment>
-                                                </attributedString>
-                                                <nil key="highlightedColor"/>
-                                            </label>
-                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="6" translatesAutoresizingMaskIntoConstraints="NO" id="IYO-Vk-X5k">
-                                                <rect key="frame" x="88" y="109" width="240" height="157"/>
-                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                            </imageView>
                                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="52" translatesAutoresizingMaskIntoConstraints="NO" id="7Zp-oe-Zdm">
-                                                <rect key="frame" x="64" y="585" width="274" height="182"/>
+                                                <rect key="frame" x="70" y="378" width="274" height="182"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                             </imageView>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="3ho-R9-Vpx">
-                                                <rect key="frame" x="88" y="775" width="226" height="51"/>
-                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                                <attributedString key="attributedText">
-                                                    <fragment content="Effects of Serum">
-                                                        <attributes>
-                                                            <color key="NSColor" red="0.15686274509803921" green="0.10588235294117647" blue="0.078431372549019607" alpha="1" colorSpace="calibratedRGB"/>
-                                                            <font key="NSFont" size="24" name="Optima-Regular"/>
-                                                            <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
-                                                        </attributes>
-                                                    </fragment>
-                                                </attributedString>
-                                                <nil key="highlightedColor"/>
-                                            </label>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" usesAttributedText="YES" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ktQ-gu-9WZ">
-                                                <rect key="frame" x="40" y="825" width="335" height="227"/>
+                                                <rect key="frame" x="44" y="633" width="339" height="239"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <attributedString key="attributedText">
-                                                    <fragment content="● ">
+                                                    <fragment content="●">
                                                         <attributes>
-                                                            <font key="NSFont" size="18" name="LucidaGrande"/>
+                                                            <font key="NSFont" size="16" name="Helvetica"/>
                                                             <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
                                                         </attributes>
                                                     </fragment>
                                                     <fragment>
-                                                        <string key="content">Multiple signs of aging
+                                                        <string key="content"> Multiple signs of aging
 </string>
                                                         <attributes>
-                                                            <font key="NSFont" size="18" name="Optima-Regular"/>
+                                                            <font key="NSFont" size="16" name="Optima-Regular"/>
                                                             <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
                                                         </attributes>
                                                     </fragment>
-                                                    <fragment content="● ">
+                                                    <fragment content="●">
                                                         <attributes>
-                                                            <font key="NSFont" size="18" name="LucidaGrande"/>
+                                                            <font key="NSFont" size="16" name="Helvetica"/>
                                                             <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0" allowsDefaultTighteningForTruncation="NO"/>
                                                         </attributes>
                                                     </fragment>
                                                     <fragment>
-                                                        <string key="content">Visible age prevention
+                                                        <string key="content"> Visible age prevention
 </string>
                                                         <attributes>
-                                                            <font key="NSFont" size="18" name="Optima-Regular"/>
+                                                            <font key="NSFont" size="16" name="Optima-Regular"/>
                                                             <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0" allowsDefaultTighteningForTruncation="NO"/>
                                                         </attributes>
                                                     </fragment>
-                                                    <fragment content="● ">
+                                                    <fragment content="●">
                                                         <attributes>
-                                                            <font key="NSFont" size="18" name="LucidaGrande"/>
+                                                            <font key="NSFont" size="16" name="Helvetica"/>
                                                             <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0" allowsDefaultTighteningForTruncation="NO"/>
                                                         </attributes>
                                                     </fragment>
                                                     <fragment>
-                                                        <string key="content">Loss of firmness, tone
+                                                        <string key="content"> Loss of firmness, tone
 </string>
                                                         <attributes>
-                                                            <font key="NSFont" size="18" name="Optima-Regular"/>
+                                                            <font key="NSFont" size="16" name="Optima-Regular"/>
                                                             <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0" allowsDefaultTighteningForTruncation="NO"/>
                                                         </attributes>
                                                     </fragment>
-                                                    <fragment content="● ">
+                                                    <fragment content="●">
                                                         <attributes>
-                                                            <font key="NSFont" size="18" name="LucidaGrande"/>
+                                                            <font key="NSFont" size="16" name="Helvetica"/>
                                                             <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0" allowsDefaultTighteningForTruncation="NO"/>
                                                         </attributes>
                                                     </fragment>
                                                     <fragment>
-                                                        <string key="content">Lines and wrinkles
+                                                        <string key="content"> Lines and wrinkles
 </string>
                                                         <attributes>
-                                                            <font key="NSFont" size="18" name="Optima-Regular"/>
+                                                            <font key="NSFont" size="16" name="Optima-Regular"/>
                                                             <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0" allowsDefaultTighteningForTruncation="NO"/>
                                                         </attributes>
                                                     </fragment>
-                                                    <fragment content="● ">
+                                                    <fragment content="●">
                                                         <attributes>
-                                                            <font key="NSFont" size="18" name="LucidaGrande"/>
+                                                            <font key="NSFont" size="16" name="Helvetica"/>
                                                             <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0" allowsDefaultTighteningForTruncation="NO"/>
                                                         </attributes>
                                                     </fragment>
                                                     <fragment>
-                                                        <string key="content">Dryness, dehydration—includes Hyaluronic Acid
+                                                        <string key="content"> Dryness, dehydration—includes Hyaluronic Acid
 </string>
                                                         <attributes>
-                                                            <font key="NSFont" size="18" name="Optima-Regular"/>
+                                                            <font key="NSFont" size="16" name="Optima-Regular"/>
                                                             <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0" allowsDefaultTighteningForTruncation="NO"/>
                                                         </attributes>
                                                     </fragment>
-                                                    <fragment content="● ">
+                                                    <fragment content="●">
                                                         <attributes>
-                                                            <font key="NSFont" size="18" name="LucidaGrande"/>
+                                                            <font key="NSFont" size="16" name="Helvetica"/>
                                                             <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0" allowsDefaultTighteningForTruncation="NO"/>
                                                         </attributes>
                                                     </fragment>
                                                     <fragment>
-                                                        <string key="content">Dullness, loss of radiance
+                                                        <string key="content"> Dullness, loss of radiance
 </string>
                                                         <attributes>
-                                                            <font key="NSFont" size="18" name="Optima-Regular"/>
+                                                            <font key="NSFont" size="16" name="Optima-Regular"/>
                                                             <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0" allowsDefaultTighteningForTruncation="NO"/>
                                                         </attributes>
                                                     </fragment>
-                                                    <fragment content="● ">
+                                                    <fragment content="●">
                                                         <attributes>
-                                                            <font key="NSFont" size="18" name="LucidaGrande"/>
+                                                            <font key="NSFont" size="16" name="Helvetica"/>
                                                             <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0" allowsDefaultTighteningForTruncation="NO"/>
                                                         </attributes>
                                                     </fragment>
                                                     <fragment>
-                                                        <string key="content">Uneven skintone
+                                                        <string key="content"> Uneven skintone
 </string>
                                                         <attributes>
-                                                            <font key="NSFont" size="18" name="Optima-Regular"/>
+                                                            <font key="NSFont" size="16" name="Optima-Regular"/>
                                                             <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0" allowsDefaultTighteningForTruncation="NO"/>
                                                         </attributes>
                                                     </fragment>
-                                                    <fragment content="● ">
+                                                    <fragment content="●">
                                                         <attributes>
-                                                            <font key="NSFont" size="18" name="LucidaGrande"/>
+                                                            <font key="NSFont" size="16" name="Helvetica"/>
                                                             <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0" allowsDefaultTighteningForTruncation="NO"/>
                                                         </attributes>
                                                     </fragment>
                                                     <fragment>
-                                                        <string key="content">Anti-oxidants
+                                                        <string key="content"> Anti-oxidants
 </string>
                                                         <attributes>
-                                                            <font key="NSFont" size="18" name="Optima-Regular"/>
+                                                            <font key="NSFont" size="16" name="Optima-Regular"/>
                                                             <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0" allowsDefaultTighteningForTruncation="NO"/>
                                                         </attributes>
                                                     </fragment>
@@ -388,7 +351,7 @@ Now with Chronolux™ Power Signal Technology, this deep- and fast-penetrating f
 Cgo
 </string>
                                                         <attributes>
-                                                            <font key="NSFont" size="18" name="Optima-Regular"/>
+                                                            <font key="NSFont" size="16" name="Optima-Regular"/>
                                                             <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
                                                         </attributes>
                                                     </fragment>
@@ -396,11 +359,11 @@ Cgo
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="2" translatesAutoresizingMaskIntoConstraints="NO" id="yoG-p3-I5V">
-                                                <rect key="frame" x="8" y="1144" width="212" height="184"/>
+                                                <rect key="frame" x="8" y="1141" width="212" height="184"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                             </imageView>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="4Ij-0A-JQT">
-                                                <rect key="frame" x="122" y="1038" width="159" height="33"/>
+                                                <rect key="frame" x="128" y="1015" width="159" height="33"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <attributedString key="attributedText">
                                                     <fragment content="Statistics">
@@ -413,7 +376,7 @@ Cgo
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" usesAttributedText="YES" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="RAW-5H-H9M">
-                                                <rect key="frame" x="10" y="1071" width="383" height="77"/>
+                                                <rect key="frame" x="16" y="1056" width="383" height="77"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <attributedString key="attributedText">
                                                     <fragment content="After consumer testing of the 1.7 oz./50ml bottle on 543 women for three weeks...">
@@ -449,25 +412,13 @@ Cgo
                                                     <segue destination="6t7-b3-61M" kind="showDetail" id="qmB-Bi-bR6"/>
                                                 </connections>
                                             </button>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" usesAttributedText="YES" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="dWA-p0-drh">
-                                                <rect key="frame" x="228" y="1144" width="177" height="184"/>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" usesAttributedText="YES" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Gbp-3k-kBg">
+                                                <rect key="frame" x="219" y="1144" width="187" height="184"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <attributedString key="attributedText">
-                                                    <fragment>
-                                                        <string key="content" base64-UTF8="YES">
-Cg
-</string>
-                                                        <attributes>
-                                                            <color key="NSColor" name="textColor" catalog="System" colorSpace="catalog"/>
-                                                            <font key="NSFont" size="16" name="Optima-Regular"/>
-                                                            <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
-                                                        </attributes>
-                                                    </fragment>
                                                     <fragment content="●">
                                                         <attributes>
-                                                            <color key="NSColor" name="textColor" catalog="System" colorSpace="catalog"/>
-                                                            <font key="NSFont" size="16" name="Helvetica"/>
-                                                            <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                                            <font key="NSFont" size="15" name="Helvetica"/>
                                                         </attributes>
                                                     </fragment>
                                                     <fragment>
@@ -475,30 +426,75 @@ Cg
 
 </string>
                                                         <attributes>
-                                                            <color key="NSColor" name="textColor" catalog="System" colorSpace="catalog"/>
-                                                            <font key="NSFont" size="16" name="Optima-Regular"/>
-                                                            <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                                            <font key="NSFont" size="15" name="Optima-Regular"/>
                                                         </attributes>
                                                     </fragment>
                                                     <fragment content="●">
                                                         <attributes>
-                                                            <color key="NSColor" name="textColor" catalog="System" colorSpace="catalog"/>
-                                                            <font key="NSFont" size="16" name="Helvetica"/>
-                                                            <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                                            <font key="NSFont" size="15" name="Helvetica"/>
                                                         </attributes>
                                                     </fragment>
                                                     <fragment>
-                                                        <string key="content"> Skin feels firmer. 89% of women agreed.
+                                                        <string key="content"> Skin feels firmer. 89% of women agreed.          
+
 </string>
                                                         <attributes>
-                                                            <color key="NSColor" name="textColor" catalog="System" colorSpace="catalog"/>
-                                                            <font key="NSFont" size="16" name="Optima-Regular"/>
-                                                            <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                                            <font key="NSFont" size="15" name="Optima-Regular"/>
+                                                        </attributes>
+                                                    </fragment>
+                                                    <fragment content="●">
+                                                        <attributes>
+                                                            <font key="NSFont" size="15" name="Helvetica"/>
+                                                        </attributes>
+                                                    </fragment>
+                                                    <fragment>
+                                                        <string key="content"> 90% said skin felt softer and smoother immediately.
+
+</string>
+                                                        <attributes>
+                                                            <font key="NSFont" size="15" name="Optima-Regular"/>
                                                         </attributes>
                                                     </fragment>
                                                 </attributedString>
                                                 <nil key="highlightedColor"/>
                                             </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" usesAttributedText="YES" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ap1-Dp-Ssz">
+                                                <rect key="frame" x="12" y="267" width="398" height="91"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <attributedString key="attributedText">
+                                                    <fragment content="Proven effective for all skintones and skintypes. This is the high performance face serum beautiful skin can’t live without.">
+                                                        <attributes>
+                                                            <color key="NSColor" red="0.15686274509803921" green="0.10588235294117647" blue="0.078431372549019607" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                            <font key="NSFont" size="18" name="Optima-Regular"/>
+                                                            <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                                        </attributes>
+                                                    </fragment>
+                                                </attributedString>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="3ho-R9-Vpx">
+                                                <rect key="frame" x="140" y="596" width="134" height="29"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <attributedString key="attributedText">
+                                                    <fragment content="Ideal for">
+                                                        <attributes>
+                                                            <color key="NSColor" red="0.15686274509803921" green="0.10588235294117647" blue="0.078431372549019607" alpha="1" colorSpace="calibratedRGB"/>
+                                                            <font key="NSFont" size="24" name="Optima-Regular"/>
+                                                            <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                                        </attributes>
+                                                    </fragment>
+                                                </attributedString>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="8" translatesAutoresizingMaskIntoConstraints="NO" id="WWe-BR-DrR">
+                                                <rect key="frame" x="50" y="835" width="315" height="159"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                            </imageView>
+                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="5" translatesAutoresizingMaskIntoConstraints="NO" id="zWV-vr-41w">
+                                                <rect key="frame" x="0.0" y="40" width="414" height="219"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <color key="backgroundColor" red="0.6705882353" green="0.61568627450000002" blue="0.56470588239999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                            </imageView>
                                         </subviews>
                                         <color key="backgroundColor" red="0.93725490199999995" green="0.89411764709999997" blue="0.83921568629999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                     </view>
@@ -532,18 +528,18 @@ Cg
         <scene sceneID="Ftd-wV-UzU">
             <objects>
                 <viewController id="6t7-b3-61M" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" ambiguous="YES" id="Cdq-RS-Mfw">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
+                    <view key="view" contentMode="scaleToFill" id="Cdq-RS-Mfw">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="788"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="hdZ-3Z-EPG">
-                                <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="788"/>
                                 <subviews>
                                     <view contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="qD9-gT-o1K">
-                                        <rect key="frame" x="0.0" y="0.0" width="414" height="1500"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="414" height="1200"/>
                                         <subviews>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" usesAttributedText="YES" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="pvv-Sf-SKh">
-                                                <rect key="frame" x="45" y="43" width="325" height="75"/>
+                                                <rect key="frame" x="47" y="165" width="325" height="75"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <attributedString key="attributedText">
                                                     <fragment content="1. Can this serum be used by all skintypes?">
@@ -556,29 +552,45 @@ Cg
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="deQ-7M-Tz9">
-                                                <rect key="frame" x="109" y="126" width="47" height="31"/>
+                                                <rect key="frame" x="89" y="246" width="80" height="36"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <state key="normal" title="Button"/>
-                                                <buttonConfiguration key="configuration" style="plain" title="Yes"/>
+                                                <buttonConfiguration key="configuration" style="plain">
+                                                    <attributedString key="attributedTitle">
+                                                        <fragment content="Yes">
+                                                            <attributes>
+                                                                <font key="NSFont" size="18" name="Optima-Regular"/>
+                                                            </attributes>
+                                                        </fragment>
+                                                    </attributedString>
+                                                </buttonConfiguration>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="LuM-j0-mq7">
-                                                <rect key="frame" x="270" y="126" width="43" height="31"/>
+                                                <rect key="frame" x="262" y="246" width="83" height="36"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <state key="normal" title="Button"/>
-                                                <buttonConfiguration key="configuration" style="plain" title="No"/>
+                                                <buttonConfiguration key="configuration" style="plain">
+                                                    <attributedString key="attributedTitle">
+                                                        <fragment content="No">
+                                                            <attributes>
+                                                                <font key="NSFont" size="18" name="Optima-Regular"/>
+                                                            </attributes>
+                                                        </fragment>
+                                                    </attributedString>
+                                                </buttonConfiguration>
                                             </button>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="--" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="1Lf-zS-Z18">
-                                                <rect key="frame" x="186" y="166" width="16" height="21"/>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="--" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="1Lf-zS-Z18">
+                                                <rect key="frame" x="104" y="290" width="221" height="35"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                 <nil key="textColor"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="cqA-kD-s9E">
-                                                <rect key="frame" x="70" y="222" width="275" height="48"/>
+                                                <rect key="frame" x="70" y="361" width="275" height="48"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <attributedString key="attributedText">
-                                                    <fragment content="2. This is the #2 serum in the US">
+                                                    <fragment content="2. This is the #2 serum in the US.">
                                                         <attributes>
                                                             <font key="NSFont" size="18" name="Optima-Regular"/>
                                                             <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
@@ -588,62 +600,118 @@ Cg
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="kn8-QV-zle">
-                                                <rect key="frame" x="99" y="304" width="47" height="31"/>
+                                                <rect key="frame" x="89" y="417" width="68" height="36"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <state key="normal" title="Button"/>
-                                                <buttonConfiguration key="configuration" style="plain" title="Yes"/>
+                                                <buttonConfiguration key="configuration" style="plain">
+                                                    <attributedString key="attributedTitle">
+                                                        <fragment content="Yes">
+                                                            <attributes>
+                                                                <font key="NSFont" size="18" name="Optima-Regular"/>
+                                                            </attributes>
+                                                        </fragment>
+                                                    </attributedString>
+                                                </buttonConfiguration>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="3Ir-06-VVV">
-                                                <rect key="frame" x="270" y="304" width="43" height="31"/>
+                                                <rect key="frame" x="262" y="417" width="63" height="36"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <state key="normal" title="Button"/>
-                                                <buttonConfiguration key="configuration" style="plain" title="No"/>
+                                                <buttonConfiguration key="configuration" style="plain">
+                                                    <attributedString key="attributedTitle">
+                                                        <fragment content="No">
+                                                            <attributes>
+                                                                <font key="NSFont" size="18" name="Optima-Regular"/>
+                                                            </attributes>
+                                                        </fragment>
+                                                    </attributedString>
+                                                </buttonConfiguration>
                                             </button>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="--" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="RUf-cu-u6C">
-                                                <rect key="frame" x="186" y="355" width="16" height="21"/>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="--" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="RUf-cu-u6C">
+                                                <rect key="frame" x="104" y="461" width="221" height="46"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                 <nil key="textColor"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="eUj-p4-8Ph">
-                                                <rect key="frame" x="186" y="441" width="42" height="21"/>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" usesAttributedText="YES" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="eUj-p4-8Ph">
+                                                <rect key="frame" x="10" y="535" width="398" height="63"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <attributedString key="attributedText">
+                                                    <fragment content="3. What percentage of women agreed that the serum makes the skin feel firmer.">
+                                                        <attributes>
+                                                            <font key="NSFont" size="18" name="Optima-Regular"/>
+                                                            <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                                        </attributes>
+                                                    </fragment>
+                                                </attributedString>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="XYN-it-9oL">
+                                                <rect key="frame" x="89" y="606" width="80" height="31"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <state key="normal" title="Button"/>
+                                                <buttonConfiguration key="configuration" style="plain">
+                                                    <attributedString key="attributedTitle">
+                                                        <fragment content="89%"/>
+                                                    </attributedString>
+                                                </buttonConfiguration>
+                                            </button>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" usesAttributedText="YES" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="cD4-HH-2J9">
+                                                <rect key="frame" x="21" y="37" width="376" height="120"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <attributedString key="attributedText">
+                                                    <fragment content="Estee Lauder Advanced Night Repair Quiz">
+                                                        <attributes>
+                                                            <font key="NSFont" size="36" name="Optima-Regular"/>
+                                                            <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                                        </attributes>
+                                                    </fragment>
+                                                </attributedString>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="--" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="rLV-gy-1oF">
+                                                <rect key="frame" x="102" y="666" width="215" height="21"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                 <nil key="textColor"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
+                                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="LAe-2k-WgT">
+                                                <rect key="frame" x="255" y="605" width="77" height="31"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <state key="normal" title="Button"/>
+                                                <buttonConfiguration key="configuration" style="plain" title="30%"/>
+                                            </button>
                                         </subviews>
                                         <color key="backgroundColor" red="0.93725490199999995" green="0.89411764709999997" blue="0.83921568629999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         <constraints>
-                                            <constraint firstAttribute="height" constant="1500" id="owg-Ds-Nde"/>
+                                            <constraint firstAttribute="height" constant="1200" id="W9b-P3-yqV"/>
                                         </constraints>
                                     </view>
                                 </subviews>
                                 <constraints>
-                                    <constraint firstItem="qD9-gT-o1K" firstAttribute="leading" secondItem="hdZ-3Z-EPG" secondAttribute="leading" id="C8o-1C-m4k"/>
-                                    <constraint firstAttribute="trailing" secondItem="qD9-gT-o1K" secondAttribute="trailing" id="guD-xB-rV3"/>
-                                    <constraint firstItem="qD9-gT-o1K" firstAttribute="top" secondItem="hdZ-3Z-EPG" secondAttribute="top" id="jtX-ry-Zgf"/>
-                                    <constraint firstAttribute="bottom" secondItem="qD9-gT-o1K" secondAttribute="bottom" id="nrr-k2-JFb"/>
+                                    <constraint firstItem="qD9-gT-o1K" firstAttribute="top" secondItem="hdZ-3Z-EPG" secondAttribute="top" id="EiA-qw-d0c"/>
+                                    <constraint firstAttribute="trailing" secondItem="qD9-gT-o1K" secondAttribute="trailing" id="W1P-RE-ku3"/>
+                                    <constraint firstAttribute="bottom" secondItem="qD9-gT-o1K" secondAttribute="bottom" id="ied-cG-vMG"/>
+                                    <constraint firstItem="qD9-gT-o1K" firstAttribute="leading" secondItem="hdZ-3Z-EPG" secondAttribute="leading" id="waJ-8R-7Sg"/>
                                 </constraints>
                             </scrollView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="y5y-vO-s2W"/>
-                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <color key="backgroundColor" red="0.93725490199999995" green="0.89411764709999997" blue="0.83921568629999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
-                            <constraint firstItem="hdZ-3Z-EPG" firstAttribute="trailing" secondItem="y5y-vO-s2W" secondAttribute="trailing" id="3QK-Zj-s3c"/>
-                            <constraint firstItem="hdZ-3Z-EPG" firstAttribute="bottom" secondItem="y5y-vO-s2W" secondAttribute="bottom" id="4iy-jy-nC3"/>
-                            <constraint firstItem="qD9-gT-o1K" firstAttribute="height" secondItem="Cdq-RS-Mfw" secondAttribute="height" multiplier="1.78147" id="7nV-9L-6cg"/>
-                            <constraint firstItem="hdZ-3Z-EPG" firstAttribute="top" secondItem="Cdq-RS-Mfw" secondAttribute="top" id="NtS-Qn-Nfe"/>
-                            <constraint firstItem="hdZ-3Z-EPG" firstAttribute="leading" secondItem="y5y-vO-s2W" secondAttribute="leading" id="Y4c-Lu-NAC"/>
-                            <constraint firstItem="qD9-gT-o1K" firstAttribute="width" secondItem="Cdq-RS-Mfw" secondAttribute="width" id="wGg-WP-8RF"/>
+                            <constraint firstItem="hdZ-3Z-EPG" firstAttribute="bottom" secondItem="y5y-vO-s2W" secondAttribute="bottom" id="Idt-9r-MY2"/>
+                            <constraint firstItem="hdZ-3Z-EPG" firstAttribute="top" secondItem="Cdq-RS-Mfw" secondAttribute="top" id="Wak-nv-ehy"/>
+                            <constraint firstItem="hdZ-3Z-EPG" firstAttribute="leading" secondItem="y5y-vO-s2W" secondAttribute="leading" id="nRg-KA-pq8"/>
+                            <constraint firstItem="hdZ-3Z-EPG" firstAttribute="trailing" secondItem="y5y-vO-s2W" secondAttribute="trailing" id="t55-HY-L0r"/>
                         </constraints>
                     </view>
-                    <size key="freeformSize" width="414" height="896"/>
+                    <size key="freeformSize" width="414" height="842"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="hzk-Wg-4Og" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1608.6956521739132" y="95.758928571428569"/>
+            <point key="canvasLocation" x="1608.6956521739132" y="131.91964285714286"/>
         </scene>
     </scenes>
     <resources>
@@ -651,7 +719,7 @@ Cg
         <image name="2" width="4500" height="4500"/>
         <image name="5" width="4500" height="4500"/>
         <image name="52" width="4500" height="4500"/>
-        <image name="6" width="4500" height="4500"/>
+        <image name="8" width="4500" height="4500"/>
         <image name="9" width="4500" height="4500"/>
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
